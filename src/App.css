@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+
+}
+li, a, input{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #ffffff;
+  z-index: 999999;
+}
+.nav-links{
+  list-style: none;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a{
+  transition: all 0.4s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: #0088a9;
+}
+input{
+  padding: 9px 25px;
+  background-color: rgb(165, 165, 165);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+}
+.logo{
+  width: 250px;
+}
+.input:hover{
+  background-color: rgba(0,136,169,0.8)
+}
+

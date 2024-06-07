@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import NaveBare from './Components/NaveBare'
+import { ecommerce } from "./data";
+import ItemCard from './Components/ItemCard'
+import ItemList from './Components/ItemList'
+import { useState } from "react";
+import SearchInput from './Components/SearchInput';
+import AddCard from './Components/AddCard';
 
 function App() {
+  const [product, setProduct] = useState(ecommerce);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NaveBare/>
+      <SearchInput />
+      <ItemList list={ecommerce} />
+      <AddCard/>
     </div>
   );
 }

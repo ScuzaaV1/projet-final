@@ -1,0 +1,48 @@
+/* Card Container */
+.user-card {
+    font-family: 'Roboto', sans-serif;
+    width: 20rem;
+    margin: 1em;
+    border-radius: 12px;
+    flex-direction: column-reverse;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+    gap: 50px 20px;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button */
+  .card-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 70px;
+    color: #000000;
+    background-color: #ffc107;
+  }
+  .card-button2{
+     padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 90px;
+    color: #000000;
+    background-color: #dc3545;
+  }
+  
+  .card-button:hover {
+    opacity: 0.8;
+    transform: rotate3d(0.2s);
+  }
+.product-name{
+  color: #6d5255;
+}
