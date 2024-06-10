@@ -1,0 +1,44 @@
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-button {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 2rem;
+}
