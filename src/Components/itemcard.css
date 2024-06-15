@@ -4,17 +4,7 @@
     width: 20rem;
     margin: 1em;
     border-radius: 12px;
-    flex-direction: column-reverse;
-    display: flex;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    background: #fff;
-    gap: 50px 20px;
-  }
-  
-  .user-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    justify-content: flex-start;
   }
   
   /* Button */
@@ -26,7 +16,7 @@
     display: flex;
     margin-right: 70px;
     color: #000000;
-    background-color: #ffc107;
+    background-color: rgb(227, 213, 255);
   }
   .card-button2{
      padding: 0.5rem 1rem;
@@ -35,8 +25,7 @@
     cursor: pointer;
     display: flex;
     margin-left: 90px;
-    color: #000000;
-    background-color: #dc3545;
+    background-color:  rgb(227, 213, 255);
   }
   
   .card-button:hover {

@@ -4,6 +4,7 @@ import { Card, CardHeader, CardBody, CardFooter, Stack,Heading,Image,Text,Button
 import { useDispatch } from 'react-redux';
 import { deleteItem } from '../redux/action';
 import EditModal from './EditModal';
+import { Link } from 'react-router-dom';
 
 
 const ItemCard = ({ user }) => {
@@ -23,8 +24,8 @@ const ItemCard = ({ user }) => {
     };
 
     return (
-        <>
-           <Card  className="user-card">
+        <div className='user-card'>
+    <Card  className="user-card">
       <CardBody>
         <Image
           src={user.imageUrl}
@@ -33,7 +34,7 @@ const ItemCard = ({ user }) => {
           width={200}
         />
         
-          <Heading size='md' >{user.name}</Heading>
+          <Heading  >{user.name}</Heading>
           <Text>{user.description}</Text>
           <Text className='product-name'>{user.price}</Text>
         
@@ -47,9 +48,10 @@ const ItemCard = ({ user }) => {
           </div>
           <EditModal show={showModal} handleClose={handleClose} item={user} />
         </ButtonGroup>
-      
+       
     </Card>
-        </>
+    
+      </div>
     );
 };
 

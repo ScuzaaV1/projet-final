@@ -34,14 +34,7 @@ export const ecommerce = [
         description: "Le Samsung Galaxy S24 Ultra est un smartphone haut de gamme vendu à partir de 1469 euros et dévoilé le 17 janvier. Il est équipé d'un Snapdragon 8 Gen 3, d'un quadruple module photos, dont deux téléobjectifs X3 et X5. Il possède une batterie de 5000 mAh", // Changed from Description to description
         id: Math.random()
     },
-    {
-        imageUrl: "https://cdn.unwire.hk/wp-content/uploads/2023/06/0618-2a.jpg",
-        name: "Galaxy watch 6 pro",
-        price: "456 RND",
-        description: "Bigger, brighter screen than previous model /app selectio/ Digital bezel for quick scrolling",
-
-        id: Math.random()
-    },
+    
     {
         imageUrl: "https://www.tunisianet.com.tn/68730-large/ecran-samsung-27-full-hd-incurve.jpg",
         name: "Ecran samsung Curved",
@@ -75,6 +68,69 @@ export const ecommerce = [
         name:"Galaxy A12" ,
         price:"489 TND",
         description:"The Samsung Galaxy A12's specifications include a 5,000mAh battery coupled with the powerful Mediatek Helio P35 chipset, 3/4/6GB of RAM, and 32/64/128GB of internal storage. There is a quad-camera setup with a 48-megapixel main sensor on the back, as well as an 8-megapixel selfie shooter. The phone comes with Android 10 out of the box.",
+        id: Math.random()
+    },
+    {
+        imageUrl: "https://kbstore.tn/wp-content/uploads/2024/02/lenovo-ideapad-gaming-3-15ach6-ryzen-5-8-go.jpg",
+        name:"Lonovo Gaming Laptop" ,
+        price:"4829 TND",
+        description:"Engineered with the latest generation AMD processors and NVIDIA GeForce graphics, DDR4 memory and PCIe SSD storage, the IdeaPad Gaming 3 stays cool with a reengineered high-performance thermal system.",
+        id: Math.random()
+    },
+    {
+        imageUrl: "https://static.fnac-static.com/multimedia/Images/FR/MDM/96/98/01/16881814/1541-1/tsp20240229095244/Ruban-LED-RVB-Gaming-5-m-Geek-Monkeys.jpg",
+        name:"Rgb Led" ,
+        price:"49 TND",
+        description:"Lighting for Gaming. How to use LED lighting to enhance your gaming experience Gaming Room At Night With Neon Light. Gaming Chair And Speakers In The Room.",
+        id: Math.random()
+    },
+    {
+        imageUrl:"https://khadraouitek.tn/11396-large_default/smartphone-infinix-note-30-vip-5g-racing-edition-12go-256go-noir.jpg",
+        name:"Infinix Note 30",
+        price:"220 TND",
+        id: Math.random(),
+        description:"Smartphone Infinix Note 30 8go 256go Noir ; Mémoire RAM: 8 Go ; Stockage: 256 Go ; Appareil photo arrière: 64MP + 2MP ; Appareil photo Avant : 16MP ; Batterie: 5000 ...",
+    },
+    {
+        imageUrl:"https://static.fnac-static.com/multimedia/Images/55/55/1A/92/9574997-1505-1540-1/tsp20181003094047/Telecommande-compatible-avec-SAMSUNG-TM1240A.jpg",
+        name:"Télécommande Samsung",
+        price:"23 TND",
+        id: Math.random(),
+        description:" Samsung BN59-01315B Véritable télécommande pour Les téléviseurs 2018 2019 QLED. Brief content visible, double tap to read full content. Full ...",
+    },
+    {
+        imageUrl:"https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/1/_/1_2714.jpg",
+        name:"Telefunken Tv",
+        price:"958 TND",
+        id: Math.random(),
+        description:" Téléviseur TELEFUNKEN LED TLF-50-G3A / Taille : 50 Pouce / Résolution : Ultra HD Smart 4K (3840 x 2160 pixels) / Dolby vision / Taux de rafraichissement : 50/60 Hz Système: Android 10.0 Q / Processeur : Quad Core 1.5GHz / Mémoire RAM : 2 Go / Luminosité : 280 cd-m² (typique) / Angle de vision : 178° H-178° V / Audio: ...",
+    },
+    {
+        imageUrl: "https://cdn.unwire.hk/wp-content/uploads/2023/06/0618-2a.jpg",
+        name: "Galaxy watch 6 pro",
+        price: "456 TND",
+        description: "Bigger, brighter screen than previous model /app selectio/ Digital bezel for quick scrolling",
+        id: Math.random()
+    },
+    {
+        imageUrl: "https://th.bing.com/th/id/OIP.wUL4Shwj67CsXtXj1VJ51QHaHa?rs=1&pid=ImgDetMain",
+        name: "Spirit Of Gamer Casque",
+        price: "96 TND",
+        description: "Casque Micro Gaming Spirit of Gamer Pro H8 LED RGB - Diamètre: Ø 50 mm - Réponse en fréquence: 20 - 20.000 Hz - Impédance: 32 Ω - Niveau sonore: 119 dB - Rétro-éclairage LED RGB Rainbow - Ecouteurs : Isolation phonique, coussins rembourrés, confortables - Arceau réglable rembourré - Télécommande filaire (contrôle du volume, Mute Micro) - Interface: Simple jack 3,5 mm (Audio + Micro) et USB (seulement pour le rétro-éclairage) - Rallonge Double Jack 3,5 mm (Audio & Micro): 1 mètre - Longueur du câble: 2 m - Microphone omnidirectionnel fléxible - Prise: Jack 3.5 mm - Poids: 250g - Couleur: Noir - Compatible PC / PS4 / Xbox One / Nintendo Switch - Garantie 1 an",
+        id: Math.random()
+    },
+    {
+        imageUrl: "https://www.tunisianet.com.tn/167328-large/recepteur-box-android-x96q-2go-16go.jpg",
+        name: "Android Box X96Q",
+        price: "196 TND",
+        description: "Box TV Android X96Q / Système d'exploitation: Android 10 / Processeur : Allwinner H313 Quad Core Arm Cortex A53 / Mémoire RAM: 4 Go / Stockage : 64 Go / Prise en charge …",
+        id: Math.random()
+    },
+    {
+        imageUrl: "https://th.bing.com/th/id/OIP.TNOZXwhD2KkbMQfB29noSAHaF7?rs=1&pid=ImgDetMain",
+        name: "RTX 3050",
+        price: "1196 TND",
+        description: "The GeForce RTX 3050 4 GB is a performance-segment graphics card by NVIDIA, launched on January 27th, 2022. Built on the 8 nm process, and based on the GA107 graphics processor, in its GA107-140-A1 variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on GeForce RTX 3050 4 GB.",
         id: Math.random()
     },
 ]

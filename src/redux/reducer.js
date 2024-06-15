@@ -29,7 +29,7 @@ const rootReducer = (state = initialState, action) => {
                 case ADD_CARD:
                     return {
                       ...state,
-                      items: [...state.items, ],
+                      items: [...state.items,action.payload ],
                     };
         default:
             return state;

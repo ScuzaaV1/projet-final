@@ -26,10 +26,10 @@ export const AddCard = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newItem = {
-      title,
-      image,
+      name: title,
+      imageUrl: image,
       price,
-      decription,
+      description: decription,
       id: Math.random(),
     };
     dispatch(handleADD(newItem));
@@ -60,27 +60,31 @@ export const AddCard = () => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="aaa">
           <label>Title</label>
           <input
+          className="inputadd"
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <label>Price</label>
           <input
+          className="inputadd"
             type="text"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
           />
           <label>product image</label>
           <input
+          className="inputadd"
             type="text"
             value={image}
             onChange={(e) => setImage(e.target.value)}
           />
           <label>product Description</label>
           <input
+          className="inputadd"
             type="text"
             value={decription}
             onChange={(e) => setDescription(e.target.value)}
@@ -88,8 +92,12 @@ export const AddCard = () => {
           <button className="btn" onClick={closeModal}>
             Cancel
           </button>
-          <button className="btn" type="submit" onChange={e=>AddCard(e.target.value)}>
-            Confirme
+          <button
+            className="btn"
+            type="submit"
+            onChange={(e) => AddCard(e.target.value)}
+          >
+            Confirm
           </button>
         </form>
       </Modal>
